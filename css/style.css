@@ -9107,7 +9107,6 @@ h1, h2, h3, h4, h5,
   transition: all 0.3s ease;
   position: relative;
   z-index: 0; }
-  
   .staff:after, .staff:before {
     position: absolute;
     bottom: -15px;
