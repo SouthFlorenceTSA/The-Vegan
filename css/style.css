@@ -223,7 +223,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; }
+  -webkit-appearance:button; }
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -8374,7 +8374,7 @@ h1, h2, h3, h4, h5,
 .h2-dark
   {
     line-height: 1.5;
-    color:rgba(0, 0, 0, 0.10);
+    color:ghostwhite;
     font-weight: 400; }
   
 .wrap {
@@ -8394,7 +8394,7 @@ h1, h2, h3, h4, h5,
     font-size: 13px;
     color: rgba(255, 255, 255, 0.8); }
     .wrap .phone a {
-      color: white;
+      color:#e2e2e2 ;
       font-size: 12px; }
     .wrap .phone .fa {
       color: rgba(255, 255, 255, 0.8); }
@@ -8436,7 +8436,7 @@ h1, h2, h3, h4, h5,
         background: rgba(0, 0, 0, 0.4);
         border-radius: 5px; } }
   .ftco-navbar-light .navbar-brand {
-    color:white;
+    color:#e2e2e2;
     padding-left: 25px; }
     .ftco-navbar-light .navbar-brand span {
       color: green; }
@@ -8459,7 +8459,7 @@ h1, h2, h3, h4, h5,
     letter-spacing: 1px;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color:limegreen; }
+      color:green; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
@@ -8641,7 +8641,7 @@ h1, h2, h3, h4, h5,
       .hero-wrap .slider-text .breadcrumbs span i {
         color: rgba(255, 255, 255, 0.9); }
       .hero-wrap .slider-text .breadcrumbs span a {
-        color: white; }
+        color: #e2e2e2; }
         .hero-wrap .slider-text .breadcrumbs span a:hover, .hero-wrap .slider-text .breadcrumbs span a:focus {
           color: green; }
           .hero-wrap .slider-text .breadcrumbs span a:hover i, .hero-wrap .slider-text .breadcrumbs span a:focus i {
@@ -9098,11 +9098,11 @@ h1, h2, h3, h4, h5,
     -ms-border-radius: 50%;
     border-radius: 50%; }
   .menus:hover {
-    border-color: ; }
+    border-color:white ; }
     .menus:hover .text h3 {
       color: green; }
     .menus:hover .text .one-forth .price {
-      color: limegreen; }
+      color: green; }
 
 .staff {
   -moz-transition: all 0.3s ease;
@@ -9616,7 +9616,7 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
+-webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
