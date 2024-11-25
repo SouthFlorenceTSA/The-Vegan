@@ -8371,6 +8371,13 @@ h1, h2, h3, h4, h5,
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 400; }
+
+.h2-dark {
+  color: #333333;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize; }
 .h2-dark
   {
     line-height: 1.5;
