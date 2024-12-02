@@ -9459,7 +9459,7 @@ textarea.form-control {
   color:green;
   color: green;
   position: relative;
-  line-height: 1;
+  line-height: 2;
   font-family: "Dancing Script", cursive;
   margin-bottom: -20px;
   z-index: -1; }
