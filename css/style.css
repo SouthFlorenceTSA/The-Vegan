@@ -10005,3 +10005,22 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+iframe{
+  width: 800px;
+  height: 200px;
+  position: relative;
+  border-radius: 20px;
+}
+#address{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  
+}
+#address h1{
+  color: var(--white);
+}
