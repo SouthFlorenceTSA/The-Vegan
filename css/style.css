@@ -1880,7 +1880,22 @@ textarea.form-control {
   height: auto; }
 
 .form-group {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+}
+.form-group label{
+  position: relative;
+  color: var(--white);
+  top: -40px;
+  left: 15px;
+  transition: 0.3s all;
+  pointer-events: none;
+  background: green;
+  padding: 0 10px;
+}
+.form-group input:focus + label{
+  transform: translate(-5px, -25px);
+  scale: 0.95;
+}
 
 .form-text {
   display: block;
@@ -9618,7 +9633,7 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
--webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
