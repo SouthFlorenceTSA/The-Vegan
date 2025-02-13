@@ -5,8 +5,43 @@
  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator https://sitemap-generator.org/ -->
   <url>
-   <loc>https://atlas988.github.io/The-Vegan/</loc>
-   <lastmod>2025-02-13T17:39:01.894Z</lastmod>
+   <loc>https://the-vegan.netlify.app/</loc>
+   <lastmod>2025-02-13T17:42:32.794Z</lastmod>
    <priority>1.00</priority>
+ </url>
+  <url>
+   <loc>https://the-vegan.netlify.app/about</loc>
+   <lastmod>2025-02-13T17:42:32.794Z</lastmod>
+   <priority>0.64</priority>
+ </url>
+  <url>
+   <loc>https://the-vegan.netlify.app/chef</loc>
+   <lastmod>2025-02-13T17:42:32.794Z</lastmod>
+   <priority>0.64</priority>
+ </url>
+  <url>
+   <loc>https://the-vegan.netlify.app/menu</loc>
+   <lastmod>2025-02-13T17:42:32.794Z</lastmod>
+   <priority>0.64</priority>
+ </url>
+  <url>
+   <loc>https://the-vegan.netlify.app/recipes</loc>
+   <lastmod>2025-02-13T17:42:32.794Z</lastmod>
+   <priority>0.64</priority>
+ </url>
+  <url>
+   <loc>https://the-vegan.netlify.app/reservation</loc>
+   <lastmod>2025-02-13T17:42:32.794Z</lastmod>
+   <priority>0.64</priority>
+ </url>
+  <url>
+   <loc>https://the-vegan.netlify.app/blog</loc>
+   <lastmod>2025-02-13T17:42:32.794Z</lastmod>
+   <priority>0.64</priority>
+ </url>
+  <url>
+   <loc>https://the-vegan.netlify.app/contact</loc>
+   <lastmod>2025-02-13T17:42:32.794Z</lastmod>
+   <priority>0.64</priority>
  </url>
 </urlset>
