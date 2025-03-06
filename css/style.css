@@ -10022,34 +10022,26 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 
-iframe{
+iframe {
   width: 800px;
   height: 200px;
   position: relative;
   border-radius: 20px;
 }
-#address{
+
+#address {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   flex-direction: column;
-  
-}
-#address h1{
-  color: var(--white);
-#address{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#address h1{
-  color: white;
 }
 
-#address iframe{
+#address h1 {
+  color: var(--white);
+}
+
+#address iframe {
   width: 800px;
   height: 300px;
   border-radius: 20px;
