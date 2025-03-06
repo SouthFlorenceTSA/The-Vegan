@@ -10022,7 +10022,6 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 
-<<<<<<< HEAD
 iframe{
   width: 800px;
   height: 200px;
@@ -10039,7 +10038,6 @@ iframe{
 }
 #address h1{
   color: var(--white);
-=======
 #address{
   width: 100%;
   display: flex;
@@ -10055,5 +10053,4 @@ iframe{
   width: 800px;
   height: 300px;
   border-radius: 20px;
->>>>>>> 5fb8dac3a19a896610c78f4186eacb8bd10406c6
 }
