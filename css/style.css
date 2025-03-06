@@ -4,7 +4,7 @@
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
-  --red: green;
+  --MainGreen: green;
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
@@ -1880,7 +1880,22 @@ textarea.form-control {
   height: auto; }
 
 .form-group {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem; 
+}
+.form-group label{
+  position: relative;
+  color: var(--white);
+  top: -40px;
+  left: 15px;
+  transition: 0.3s all;
+  pointer-events: none;
+  background: green;
+  padding: 0 10px;
+}
+.form-group input:focus + label{
+  transform: translate(-5px, -25px);
+  scale: 0.95;
+}
 
 .form-text {
   display: block;
@@ -9618,7 +9633,7 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
--webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -10007,6 +10022,7 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 
+<<<<<<< HEAD
 iframe{
   width: 800px;
   height: 200px;
@@ -10023,4 +10039,21 @@ iframe{
 }
 #address h1{
   color: var(--white);
+=======
+#address{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#address h1{
+  color: white;
+}
+
+#address iframe{
+  width: 800px;
+  height: 300px;
+  border-radius: 20px;
+>>>>>>> 5fb8dac3a19a896610c78f4186eacb8bd10406c6
 }
