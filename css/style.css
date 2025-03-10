@@ -8962,7 +8962,7 @@ h1, h2, h3, h4, h5,
     border: transparent !important;
     border: 1px solid rgba(255, 255, 255, 0.3) !important;
     height: 50px !important;
-    background: transparent !important;
+    background: green !important;
     color: rgba(255, 255, 255, 0.9) !important;
     font-size: 14px;
     border-radius: 2px;
