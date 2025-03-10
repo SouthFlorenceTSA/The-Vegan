@@ -212,19 +212,6 @@
   </div>
 </div>
 </section>
-<script>
-  let buttons = document.querySelectorAll(".page-btn");
-
-  buttons.forEach(button => {
-    button.addEventListener("click", function() {
-      // Remove 'active' class from all buttons
-      buttons.forEach(btn => btn.classList.remove("active"));
-
-      // Add 'active' class to the clicked button
-      this.classList.add("active");
-    });
-  });
-</script>
 <footer class="ftco-footer ftco-no-pb ftco-section">
   <div class="container">
     <div class="row mb-5">
@@ -291,6 +278,20 @@
 <script src="js/scrollax.min.js"></script>
 
 <script src="js/main.js"></script>
+
+<script>
+  let buttons = document.querySelectorAll(".page-btn");
+
+  buttons.forEach(button => {
+    button.addEventListener("click", function() {
+      // Remove 'active' class from all buttons
+      buttons.forEach(btn => btn.classList.remove("active"));
+
+      // Add 'active' class to the clicked button
+      this.classList.add("active");
+    });
+  });
+</script>
 
 </body>
 </html>
