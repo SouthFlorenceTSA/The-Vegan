@@ -89,7 +89,7 @@
   </div>
 </section>
 
-<section class="ftco-section bg-light">
+<section class="ftco-section bg-light" id="blog">
  <div class="container">
   <div class="row">
     <div class="col-md-4 ftco-animate">
@@ -200,19 +200,31 @@
       <div class="block-27">
         <ul>
           <li><a href="#">&lt;</a></li>
-          <li class="active"><span>1</span></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li><a href="#">&gt;</a></li>
+          <li id="btn" class="page-btn active"><span>1</span></li>
+          <li id="btn" class="page-btn"><a href="#blog">2</a></li>
+          <li id="btn" class="page-btn"><a href="#blog">3</a></li>
+          <li id="btn" class="page-btn"><a href="#blog">4</a></li>
+          <li id="btn" class="page-btn"><a href="#blog">5</a></li>
+          <li id="btn" class="page-btn"><a href="#blog">&gt;</a></li>
         </ul>
       </div>
     </div>
   </div>
 </div>
 </section>
+<script>
+  let buttons = document.querySelectorAll(".page-btn");
 
+  buttons.forEach(button => {
+    button.addEventListener("click", function() {
+      // Remove 'active' class from all buttons
+      buttons.forEach(btn => btn.classList.remove("active"));
+
+      // Add 'active' class to the clicked button
+      this.classList.add("active");
+    });
+  });
+</script>
 <footer class="ftco-footer ftco-no-pb ftco-section">
   <div class="container">
     <div class="row mb-5">
