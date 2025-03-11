@@ -10055,3 +10055,9 @@ iframe {
   height: 300px;
   border-radius: 20px;
 }
+
+.recipes{
+  height: 1200px;
+  width: 100%;
+  overflow: auto;
+}
