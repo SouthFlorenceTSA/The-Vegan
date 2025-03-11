@@ -10,5 +10,4 @@ ohsheglows
 https://ohsheglows.com/
 NHS
 https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet/
-Peta
-https://www.peta.org/recipes/
+<a href="https://www.peta.org/recipes/">Peta</a>
