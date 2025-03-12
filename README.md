@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6bdebe37-bc49-4c0c-b909-44650ff0676f/deploy-status)](https://app.netlify.com/sites/thevegan/deploys)
 # The-Vegan
 A Vegan Restaurant Website
 
